@@ -8,6 +8,6 @@ Acesse a URL -
 
 ## Contato
 
-Gabriel Kist Camargo - (gabrielkcamargo0@hotmail.com) - [Seu site] (URL do site)
+Gabriel Kist Camargo - gabrielkcamargo0@hotmail.com
 
 Outras informações relevantes podem ser adicionadas conforme necessário.
