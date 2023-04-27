@@ -1,26 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Sigmar&display=swap"
+      rel="stylesheet"
+    />
     <title>Pizza Palace</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <div class="conteiner">
         <h1>Pizza Palace</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#" title="Seção de Sobre">Sobre</a>
-                </li>
-                <li>
-                    <a href="#" title="Seção de contato">Contato</a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <a href="#Sobre" title="Seção de Sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="#Contato" title="Seção de contato">Contato</a>
+            </li>
+          </ul>
         </nav>
+      </div>
     </header>
-    
-</body>
+    <section id="Sobre">
+      <div class="conteiner">
+        <img
+          class="pizza_img"
+          src="./img/pizza.jpg"
+          alt="imagem de uma pizza"
+        />
+        <article>
+          <h2>Sobre o restaurante</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, quasi
+            officia aliquam labore esse, eveniet a, eum debitis itaque eos
+            explicabo delectus. Reiciendis excepturi minima eligendi,
+            repudiandae dolores voluptatum temporibus!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odit
+            sint unde fuga assumenda, aliquid quisquam magnam ea impedit
+            aspernatur sit perferendis eligendi velit hic asperiores ab. Quasi,
+            consequatur tempore!
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="Contato">
+      <div class="conteiner">
+        <h2>Contato</h2>
+        <div class="metodos_contato">
+          <div>
+            <h3>Fale Conosco</h3>
+          <form>
+            <input type="text" placeholder="Nome" required />
+            <input type="email" placeholder="E-mail" required />
+            <input type="tel" placeholder="Tel (Opicional)" />
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="reset">Enviar</button>
+          </form>
+          </div>
+          <div>
+            <h3>Nos acompanhe</h3>
+            <ul class="redes_socias">
+              <li>
+                <a href="#" title="Siga-nos no instagram"
+                  ><img src="./img/instagram.png" alt="Logo do instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#" title="Siga-nos no faceboook"
+                  ><img src="./img/facebook.png" alt="Logo do facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#" title="Siga-nos no you tube"
+                  ><img src="./img/youtube.png" alt="Logo do youtube"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Venha até nós</h3>
+            <address>
+              Rua HTML nº 124, Vila JavaScript - Rio Grande do Sul - RS
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Pizza Palace - Todos os direitos reservados - 2023</p>
+    </footer>
+  </body>
 </html>
